@@ -1,0 +1,255 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #d9bbd9;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    overflow-x: hidden;
+    color: #bb2d8e;
+}
+
+.light{
+    background-color: #d9bbd9;
+    color: #db26a2;
+}
+
+.dark{
+    background-color: #242526;
+    color: #aa8faa;
+}
+
+.darkmode{
+    float: right;
+    margin-top: -30px;
+    background-color: #c300ff;
+    border: 1px solid #8334d2;
+    padding: 10px;
+    border-radius: 50px;
+    font-size: 16px;
+    transition-duration: 0.30s;
+}
+
+.darkmode:hover{
+    background-color: #e24cb3;
+    border: 1px solid #c300ff;
+    color: #7b26d0;
+}
+
+header{
+    background-color: #A752FC;
+    padding: 10px;
+    box-shadow: 0 0 3px;
+    color: #f5d9fd;
+    font-style: italic;
+    text-align: center;
+}
+
+header li{
+    display: inline;
+    padding-left: 45px;
+}
+
+header li a{
+    color: linear-gradient(85deg, #8226A0 -28.75%, #A34EF8 126.79%);
+    text-decoration: none;
+    padding: 13px;
+    transition: .7s ease;
+}
+
+header li a:hover{
+    color: linear-gradient(85deg, #8b34a8 -28.75%, #5c1e9a 126.79%);
+}
+
+header ul #contact a{
+    color: linear-gradient(85deg, #8226A0 -28.75%, #A34EF8 126.79%);
+    border-radius: 30px;
+    background: linear-gradient(82deg, #FFD3D1 0%, #D47AB8 49.03%, #A155B9 100%);
+    float: right;
+    position: relative;
+    top: -32px;
+    transition: .7s ease;
+}
+
+header ul #contact a:hover{
+    background: linear-gradient(82deg, #F89994 0%, #E14BB2 49.03%, #BC21ED 100%);
+}
+
+header li img{
+    width: 70px;
+    float: left;
+    margin-top: -45px;
+}
+
+main{
+        text-align: center;
+}
+
+#mondstadt-bg{
+    background-image: url(/image/Mondstadt.png);
+}
+
+#mondstadt2-bg{
+    background-image: url(/image/Mondstadt2.png);
+}
+
+#mondstadt3-bg{
+    background-image: url(/image/Mondstadt3.png);
+}
+
+#liyue-bg{
+    background-image: url(/image/Liyue.png);
+}
+
+#tsurumi-bg{
+    background-image: url(/image/Tsurumi.png);
+}
+
+#tsurumi2-bg{
+    background-image: url(/image/Tsurumi2.png);
+}
+
+#sumeru-bg{
+    background-image: url(/image/Sumeru.png);
+}
+
+#Primordial-bg{
+    background-image: url(/image/Primordial.png);
+}
+
+#Primordial3-bg{
+    background-image: url(/image/Primordial3.png);
+}
+
+.fullscreen {
+    height: 100vh;
+}
+
+.parallax {
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    background-repeat: no-repeat;
+    justify-content: center;
+    align-items: center;
+}
+
+.content {
+    padding: 50px;
+}
+
+footer {
+    background-color: #111;
+}
+
+.footercontainer {
+    padding: 70px 30px 20px;
+}
+
+.socialicones {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.socialicones a {
+    text-decoration: none;
+    padding: 10px;
+    background-color: #e6e3e3;
+    margin: 10px;
+    border-radius: 50%;
+}
+
+.socialicones a i {
+    font-size: 2em;
+    color: #111;
+    opacity: 0.9;
+}
+
+.socialicones a:hover {
+    background-color: #111;
+    transition: 0.3s;
+}
+
+.socialicones a:hover i {
+    color: #BC21ED;
+    transition: 0.3s;
+}
+
+.footernav {
+    margin: 30px 0;
+}
+
+.footernav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    justify-content: center;
+}
+
+.footernav ul li a {
+    color: #e6e3e3;
+    margin: 20px;
+    text-decoration: none;
+    font-size: 1.3em;
+    opacity: 0.7;
+    transition: 0.3s;
+}
+
+.footernav ul li a:hover {
+    opacity: 1;
+    color: #BC21ED;
+}
+
+.footerbottom {
+    display: flex;
+    background-color: #000;
+    padding: 20px;
+    text-align: center;
+    justify-content: center;
+}
+
+.footerbottom p {
+    color: #e6e3e3;
+}
+
+.designer {
+    opacity: 0.7;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 400;
+    margin: 0 5px;
+}
+
+@media (min-width: 500px) {
+    .card{
+        width: 300px;
+        height: 200px;
+    }
+}
+
+@media (min-width: 700px) {
+    .card{
+        width: 300px;
+        height: 200px;
+    }
+}
+
+@media (min-width: 500px) {
+    .media-query {
+        width: 300px;
+        height: 300px;
+    }
+}
+
+@media (min-width: 700px) {
+    .media-query {
+        width: 500px;
+        height: 500px;
+    }
+    
+}
